@@ -171,6 +171,9 @@
             <goals>
               <goal>repackage</goal>
             </goals>
+            <configuration>
+              <excludeDevtools>false</excludeDevtools>
+            </configuration>            
           </execution>
         </executions>
       </plugin>
